@@ -26,11 +26,11 @@ My Script does the following:
 6. Then it searches for those columns that contain mean or the standard deviation(std)
 7. It will create a smaller X that only contains the columns with mean and std identified in the step above --> <b>TASK 2</b>
 6. After that, it will merge together the subjects and activities with the obervations stored in the X file, and give them the column names: "subject" and "activities"
-7. For the following steps it loads the reshape2 package in R
-8. It melts all observations except of subject and activities
-9. It splits the Meltet file by subject, so that we have 30 tables for each subject
-10. It melts down the observations and returns the mean for each activity in each subject table --> <b>TASK 5</b>
-11. Thean it writes the table of step 10. that it sortet by subject and gives the mean observations for every activity in a text file
+8. For the following steps it loads the reshape2 package in R
+9. It melts all observations except of subject and activities
+10. It splits the Meltet file by subject, so that we have 30 tables for each subject
+11. It melts down the observations and returns the mean for each activity in each subject table --> <b>TASK 5</b>
+12. Thean it writes the table of step 12. that it sortet by subject and gives the mean observations for every activity in a text file
 
 
 
