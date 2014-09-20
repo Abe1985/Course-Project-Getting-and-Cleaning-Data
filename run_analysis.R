@@ -60,4 +60,4 @@ SYXmelt <- melt(SYX, id=c("subject","activities"))
 SYXs <- split(SYXmelt,SYXmelt[,1]) ## splits the data by subject
 SYXclean <- lapply(SYXs, dcast, activities ~variable, mean) ##melts the variables down to their mean by every activity
 ##for each subject
-write.table(SYXclean,file=".CourseProjectTextFile.txt", row.name=FALSE) ##writes the cleanData into a text file
+write.table(SYXclean,file="CourseProjectTextFile.txt", row.name=FALSE) ##writes the cleanData into a text file
