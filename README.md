@@ -21,7 +21,7 @@ My Script does the following:
 1. As a first step my script loads all the files needed in R with a read.table code
 2. Then it merges the test and the training sets into tree complete tables --> <b>TASK 1</b>
 3. Then it exchanges the labes for the activities in the Y table with the real activitynames --> <b>TASK 3</b>
-4. It gives the columns of the X file the names stores in the features text file --> TASK 4)
+4. It gives the columns of the X file the names stores in the features text file --> <b>TASK 4</b>
 5. Then it will correct the mistakes in the feature names, namely "bodybody" instead of just one "body"
 6. Then it searches for those columns that contain mean or the standard deviation(std)
 7. It will create a smaller X that only contains the columns with mean and std identified in the step above --> <b>TASK 2</b>
